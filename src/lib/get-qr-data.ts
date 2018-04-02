@@ -51,3 +51,10 @@ export const charsetTypes : ReadonlyArray<Charset> = [
   "ISO-8859-1",
   "UTF-8"
 ];
+
+export const eccTypes: ReadonlyArray<Ecc> = [
+  "L",
+  "M",
+  "Q",
+  "H"
+];
