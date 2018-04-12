@@ -28,7 +28,7 @@ export interface FieldValidation {
   readonly result: boolean;
 }
 
-export default function(data: GetQRData): Validation {
+export default function validateQrData(data: GetQRData): Validation {
   const maxSize: number = maxSizeForFormat(data.format || DEFAULT_FORMAT);
   const fieldValidations: ReadonlyArray<FieldValidation> = [
     {
