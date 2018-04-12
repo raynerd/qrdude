@@ -1,5 +1,3 @@
-// add doc
-
 export type Format = 'png' | 'gif' | 'jpeg' | 'jpg' | 'svg' | 'eps';
 
 export type Charset = 'ISO-8859-1' | 'UTF-8';
